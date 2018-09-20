@@ -6,6 +6,8 @@ namespace WishList.Models
     {
         public int Id { get; set; }
 
+        virtual public ApplicationUser User { get; set; }
+
         [Required]
         [MaxLength(50)]
         public string Description { get; set; }
