@@ -5,6 +5,6 @@ namespace WishList.Models
 {
     public class ApplicationUser : IdentityUser
     {
-        virtual public ICollection<Item> Items { get; set; }
+         public virtual ICollection<Item> Items { get; set; }
     }
 }
