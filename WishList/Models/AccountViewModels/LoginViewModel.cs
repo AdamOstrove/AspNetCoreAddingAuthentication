@@ -14,6 +14,6 @@ namespace WishList.Models.AccountViewModels
 
         [Required]
         [DataType(DataType.Password)]
-        public string password { get; set; }
+        public string Password { get; set; }
     }
 }
